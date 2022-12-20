@@ -6,3 +6,4 @@
 - [x] eslint
 - [x] stylelint
 - [x] husky + lint-staged
+- [x] tailwindcss + postcss + autoprefixer
