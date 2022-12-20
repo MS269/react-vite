@@ -8,8 +8,9 @@
     "commit": "cz",
     "dev": "vite",
     "format": "prettier -uw --cache --ignore-path .gitignore .",
-    "lint": "tsc && yarn lint:eslint",
+    "lint": "tsc && yarn lint:eslint && yarn lint:stylelint",
     "lint:eslint": "eslint --cache --fix --ignore-path .gitignore --ext .ts,.tsx .",
+    "lint:stylelint": "stylelint --cache --fix --ignore-path .gitignore **/*.css",
     "prepare": "husky install",
     "preview": "vite preview"
   },
@@ -36,6 +37,9 @@
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.1",
+    "stylelint": "^14.16.0",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-standard": "^29.0.0",
     "typescript": "^4.9.3",
     "vite": "^4.0.0"
   }

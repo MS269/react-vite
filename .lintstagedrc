@@ -1,4 +1,5 @@
 {
   "*": "prettier -uw --cache",
+  "*.css": "stylelint --cache --fix",
   "*.{ts,tsx}": "eslint --cache --fix"
 }

@@ -4,4 +4,5 @@
 - [x] commitizen + cz-conventional-changelog
 - [x] prettier
 - [x] eslint
+- [x] stylelint
 - [x] husky + lint-staged
