@@ -7,7 +7,7 @@
     "commit": "cz",
     "dev": "vite",
     "format": "prettier -uw --cache --ignore-path .gitignore .",
-    "lint": "tsc && yarn lint:eslint && yarn lint:stylelint",
+    "lint": "tsc && npm run lint:eslint && npm run lint:stylelint",
     "lint:eslint": "eslint --cache --fix --ignore-path .gitignore --ext .ts,.tsx .",
     "lint:stylelint": "stylelint --cache --fix --ignore-path .gitignore **/*.css",
     "prepare": "husky install",
