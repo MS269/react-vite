@@ -7,7 +7,7 @@ export default function SignUp() {
       <form className='flex w-80 flex-col items-center justify-center'>
         <input
           className='auth-input'
-          type='text'
+          type='email'
           placeholder='Email*'
           id='email'
           name='email'
