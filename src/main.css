@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .auth-input {
+    @apply m-3 w-full rounded-md border-[1px] border-solid border-gray-400 p-3 shadow-md hover:border-black;
+  }
+}
